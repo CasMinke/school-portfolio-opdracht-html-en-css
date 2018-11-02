@@ -1,0 +1,284 @@
+/* stylesheet.css */
+/* Cas Minke */
+body {
+    background-color: olivedrab;
+}
+
+header {
+    background-color: #4c5700;
+    border-style: solid;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+main {
+    background-color: darkolivegreen;
+    width: 75%;
+    display: inline-block;
+    border-style: solid;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+article {
+    background-color: #4c5700;
+    border-style: solid;
+    margin: 10px auto;
+    text-align: center;
+    width: 80%;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #4c5700;
+    font-family: Impact, fantasy;
+    margin: 10px;
+    border-style: solid;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h2 {
+    border-style: solid;
+    width: 80%;
+    margin: 10px auto;
+    background-color: darkolivegreen;
+    border-radius: 10px;
+}
+
+h3 {
+    border-style: solid;
+    width: 70%;
+    margin: 10px auto;
+    background-color: darkolivegreen;
+    border-radius: 10px;
+}
+
+p {
+    width: 80%;
+    margin: 10px auto;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: olivedrab;
+}
+
+table {
+    border-style: solid;
+    margin: 10px auto;
+    background-color: olivedrab;
+    border-radius: 10px;
+}
+
+th {
+    border-style: solid;
+}
+
+td {
+    border-style: solid;
+    border-width: 0.5px;
+}
+
+nav {
+    background-color: darkolivegreen;
+    margin: 10px;
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+}
+
+a:link {
+    background-color: transparent;
+    color: #000000;
+    text-decoration: underline;
+    font-family: Impact, fantasy;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 23px;
+}
+
+a:visited {
+    background-color: transparent;
+    color: #000000;
+    text-decoration: underline;
+    font-family: Impact, fantasy;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 23px;
+}
+
+a:hover {
+    background-color: transparent;
+    color: #07d300;
+    text-decoration: underline;
+    font-family: Impact, fantasy;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 23px;
+}
+
+a:active {
+    background-color: transparent;
+    color: #000000;
+    text-decoration: underline;
+    font-family: Impact, fantasy;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 23px;
+}
+
+iframe {
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.font {
+    font-family: impact, fantasy;
+}
+
+aside {
+    background-color: #4c5700;
+    width: 20%;
+    display: inline-block;
+    margin-top: 10px;
+    vertical-align: top;
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4px;
+    justify-content: center;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    flex: 25%;
+    max-width: 32%;
+    padding: 4px;
+    justify-content: center;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+address {
+    display: inline-block;
+    margin-left: 100px;
+    font-family: "Times New Roman";
+    font-style: italic;
+    font-weight: bold;
+    margin-right: 100px;
+}
+
+.adr-style {
+    display: block;
+}
+
+li {
+    list-style-type: none;
+}
+
+.links-aside-style {
+    text-align: left;
+}
+
+.links-nav-style {
+    display: inline-block;
+    width: 20%;
+}
+
+.gegevens-style {
+    display: inline-block;
+    margin-left: 100px;
+    font-family: "Times New Roman";
+    font-style: italic;
+    font-weight: bold;
+    margin-right: 50px;
+    vertical-align: top;
+}
+
+.info-style {
+    display: block;
+}
+
+textarea {
+    width: 500px;
+    height: 150px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    border-style: none;
+}
+
+input[type=email] {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: darkolivegreen;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: olivedrab;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+legend {
+    font-size: 30px;
+    margin: auto;
+}
+
+.article-aside-style {
+    background-color: darkolivegreen;
+}
+
+.tekst-sub-onderwerp {
+    width: 70%;
+}
+
+.ul-style {
+    background-color: olivedrab;
+    border-style: solid;
+    width: 65%;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.li-style {
+    list-style-type: circle;
+}
